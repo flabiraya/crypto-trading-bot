@@ -13,8 +13,8 @@
             "secret": null
         },
         "binance_futures": {
-            "key": "gDypjPnWsSCdtLJDSTgO179SKqxmS02gXfBFwJF4s0nyIqjKcfVdMxxLFsBnQt3i",
-            "secret": "KQHA8uq36CFSv2T3FGrBKdCoYvTJHBFN1WCiMcvEQLhGOcQW6JaoS733FTjt4nNy"
+            "key": "FLlQRDMaCi5aXV6aIsUEwS4oElKNppzCNxmXCGt4H69xv4LyfOjIZTQPqw4P2fbS",
+            "secret": "ZQ92wgH4HfSv1oCe0tbWli530jU5vZJZMP9DhfOYwXQTr4qdaFQqkp7ktP9yHMI8"
         },
         "binance_margin": {
             "key": null,
@@ -48,8 +48,8 @@
             "port": 465
         },
         "telegram" : {
-            "chat_id": "168218888",
-            "token": "2043033657:AAEU4s5P1sptDOlOn5KL6rNqwKxihnageaY"
+            "chat_id": "562935261",
+            "token": "1917609379:AAEHeUSfp4SXSqy9Mmk-T1o5ua6RlQrQjuk"
         }
     },
     "webserver": {
