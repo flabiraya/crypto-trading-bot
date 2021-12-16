@@ -20,8 +20,8 @@ c.symbols = [
     watchdogs: [
       {
         name: 'risk_reward_ratio',
-        target_percent: 2,
-        stop_percent: 10.0
+        target_percent: 1,
+        stop_percent: 1.0
       }
     ]
   },
@@ -44,8 +44,8 @@ c.symbols = [
     watchdogs: [
       {
         name: 'risk_reward_ratio',
-        target_percent: 2,
-        stop_percent: 10.0
+        target_percent: 1,
+        stop_percent: 1.0
       }
     ]
   },
@@ -68,32 +68,32 @@ c.symbols = [
     watchdogs: [
       {
         name: 'risk_reward_ratio',
-        target_percent: 2,
-        stop_percent: 10.0
+        target_percent: 1,
+        stop_percent: 1.0
       }
     ]
   },
   {
     symbol: 'IOTXUSDT',
     exchange: 'binance_futures',
-    periods: ['5m', '15m', '1h'],
+    periods: ['1m', '15m', '1h'],
     trade: {
       currency_capital: 150,
       strategies: [
         {
-          strategy: 'dip_catcher',
+          strategy: 'cci',
           interval: '15m',
           options: {
             period: '15m'
           }
-        }
+        },{strategy: 'obv_pump_dump'}
       ]
     },
     watchdogs: [
       {
         name: 'risk_reward_ratio',
-        target_percent: 2,
-        stop_percent: 10.0
+        target_percent: 1,
+        stop_percent: 1.0
       }
     ]
   }
